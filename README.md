@@ -1,0 +1,3 @@
+### Grunt Intro
+
+Note about the gitignore. I am ignoring minified files. This is something you will want to do because the code you check in should be the source or the code that others need to contribute to this project. Since we have grunt and the plugins as dev dependencies, other developers will be able to check out just the source code and be able to generate the minified side code. In your html you will want to src the minified code. This might have ramifications when deploying to heroku. This resource might help: [https://devcenter.heroku.com/articles/node-with-grunt](https://devcenter.heroku.com/articles/node-with-grunt)
